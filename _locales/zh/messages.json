@@ -1,0 +1,860 @@
+{
+    "added_new_word": {
+        "message": "已添加新词"
+    },
+    "already_in_wordlist": {
+        "message": "已分配到单词列表"
+    },
+    "application_description": {
+        "message": "根据列表自动查找并突出显示网页上的单词和短语"
+    },
+    "application_title": {
+        "message": "分组高亮（Forty汉化）"
+    },
+    "create_new_list": {
+        "message": "创建新列表"
+    },
+    "deleteGroupLink": {
+        "message": "删除列表"
+    },
+    "donate1": {
+        "message": "希望你喜欢使用此插件"
+    },
+    "donate2": {
+        "message": "可以通过捐赠来支持我的工作"
+    },
+    "donate3": {
+        "message": "此插件将永远免费"
+    },
+    "donatebtn": {
+        "message": "捐赠"
+    },
+    "dontdonate": {
+        "message": "我现在不想捐赠，继续免费使用"
+    },
+    "download_backup": {
+        "message": "如果文件没有自动下载，请单击此链接"
+    },
+    "everytime": {
+        "message": "每次"
+    },
+    "example": {
+        "message": "例子"
+    },
+    "example1": {
+        "message": "这是已经高亮的 "
+    },
+    "example2": {
+        "message": " "
+    },
+    "field_background": {
+        "message": "文字背景颜色"
+    },
+    "field_colors": {
+        "message": ""
+    },
+    "field_colors_help": {
+        "message": "颜色设置"
+    },
+    "field_detection": {
+        "message": "检测"
+    },
+    "field_detection_help": {
+        "message": "检查单词完整性"
+    },
+    "field_dontHighlight": {
+        "message": "黑名单"
+    },
+    "field_export": {
+        "message": "导出"
+    },
+    "field_exportSettings": {
+        "message": "创建备份"
+    },
+    "field_foreground": {
+        "message": "文字字体颜色"
+    },
+    "field_highlightOn": {
+        "message": "白名单"
+    },
+    "field_import": {
+        "message": "导入"
+    },
+    "field_importSettings": {
+        "message": "恢复备份"
+    },
+    "field_limitations": {
+        "message": "限制"
+    },
+    "field_listname": {
+        "message": "列表名称"
+    },
+    "field_onlyHighlightOn":{
+    	"message":"全局白名单（黑名单优先）"
+    },   
+    "field_neverHighlightOn": {
+        "message": "全局黑名单"
+    },
+    "field_neverHighlightOn_help": {
+        "message": "自定义黑白名单 <br/>你可以使用通配符，如 * 和 ?<br /> 例子：<br/> *.google.com<br/>www.google.com<br />www.google.com/something/page.html<br />www.go?gle.com/*/page.html"
+    },
+    "field_printHighlights": {
+        "message": " 打印高亮"
+    },
+    "field_showFoundWords": {
+        "message": " 显示已高亮的每个关键词的数量"
+    },
+    "field_byhandHighlight":{
+        "message":"高亮模式：勾选上为手动，反之为自动"
+    },
+    "field_AutoClick":{
+        "message":"CSS元素选择器：勾选为显示，反之为隐藏"
+    },    
+    "field_sitesToHighlight": {
+        "message": "设置要高亮显示的网站"
+    },
+    "field_source": {
+        "message": "来源"
+    },
+    "field_words": {
+        "message": "关键词"
+    },
+    "field_words_help": {
+        "message": "你可以使用 * 和 ? 通配符。 每一行即为一个关键词"
+    },
+    "field_words_regex_help": {
+        "message": "你可以使用正则表达式，例如 [a-z], [1-9]"
+    },
+    "has_been_added_to": {
+        "message": "已经被添加到"
+    },
+    "has_been_updated": {
+        "message": "已经更新"
+    },
+    "highlight_editable_fields": {
+        "message": "在可编辑字段中高亮显示"
+    },
+    "jump_to_word": {
+        "message": "跳转到关键词"
+    },
+    "list_synced": {
+        "message": "已下载列表"
+    },
+    "localLabel": {
+        "message": "标准列表"
+    },
+    "more": {
+        "message": "更多"
+    },
+    "newGroupDetail": {
+        "message": "标准列表，允许你直接管理关键词库"
+    },
+    "non_unicode_chars": {
+        "message": "词组列表含有非unicode编码字符。取消勾选，才能正确高亮显示"
+    },
+    "notify_when_found": {
+        "message": "找到关键词时通知"
+    },
+    "once_per_page": {
+        "message": "每页一次"
+    },
+    "perf_100": {
+        "message": "快 - 需要高性能设备"
+    },
+    "perf_200": {
+        "message": "默认 - 根据页面更新频率调整高亮显示速度"
+    },
+    "perf_300": {
+        "message": "慢 - 为节省资源，重新高亮显示会慢一些"
+    },
+    "perf_400": {
+        "message": "不重新高亮显示 - 只在页面加载时高亮显示一次"
+    },
+    "performance": {
+        "message": "性能设置"
+    },
+    "performanceHelp": {
+        "message": "设置该插件高亮显示的刷新频率"
+    },
+    "popup_add": {
+        "message": "添加"
+    },
+    "popup_addnewlist": {
+        "message": "添加新词表"
+    },
+    "popup_back": {
+        "message": "< 返回"
+    },
+    "popup_byline": {
+        "message": "在页面上高亮显示所有以下关键词"
+    },
+    "popup_cancel": {
+        "message": "取消"
+    },
+    "popup_collapseAll": {
+        "message": "全部折叠"
+    },
+    "popup_configureWords": {
+        "message": " < 返回关键词列表"
+    },
+    "popup_confirmDelete": {
+        "message": "确定删除列表及其中的关键词？"
+    },
+    "popup_create1": {
+        "message": "点击 " //创建词库列表
+    },
+    "popup_create2": {
+        "message": " 创建新的高亮词列表" //在网页上高亮显示
+    },
+    "popup_createWordList": {
+        "message": "创建关键词列表"
+    },
+    "popup_disabled": {
+        "message": "禁用"
+    },
+    "popup_dontshowwords": {
+        "message": "不再显示当前页面"
+    },
+    "popup_edit": {
+        "message": "编辑"
+    },
+    "popup_editWordlist": {
+        "message": "编辑"
+    },
+    "popup_expandAll": {
+        "message": "全部展开"
+    },
+    "popup_foundWords": {
+        "message": "已在此页面上高亮显示了这些词"
+    },
+    "popup_importFailed": {
+        "message": "导入失败"
+    },
+    "popup_labelListName": {
+        "message": "列表名称"
+    },
+    "popup_limitations": {
+        "message": "已限制"
+    },
+    "popup_next": {
+        "message": "下一步"
+    },
+    "popup_no": {
+        "message": "否"
+    },
+    "popup_nowords": {
+        "message": "还未创建高亮词列表"
+    },
+    "popup_save": {
+        "message": "保存"
+    },
+    "popup_settings": {
+        "message": "设置"
+    },
+    "popup_showDonate": {
+        "message": "捐赠"
+    },
+    "popup_tip1": {
+        "message": "提示： 使用"
+    },
+    "popup_tip2": {
+        "message": "+Shift+Space"
+    },
+    "popup_tip3": {
+        "message": "可以浏览页面上的关键词"
+    },
+    "popup_title": {
+        "message": "分组高亮(Forty汉化)" //点击右下角圆形按钮创建新的高亮分组 分组高亮(Forty汉化)
+    },
+    "popup_mid_title": {
+        "message": "右下角圆形按钮" //分组高亮(Forty汉化)
+    },
+    "popup_yes": {
+        "message": "是"
+    },
+    "refresh_page": {
+        "message": "刷新页面即可查看新增高亮关键词"
+    },
+    "remoteLabel": {
+        "message": "外部列表（Web、Pastebin、Google表格）"
+    },
+    "sites_info": {
+        "message": "自定义黑白名单，黑名单优先级更高<br /> 如果未定义任何内容，则会在所有页面上设置高亮显示<br /><br />你可以使用通配符，如 * 和 ?<br /> 例子： *.google.com, www.google.com, www.google.*/something/page.html, www.go?gle.com/*/page.html"
+    },
+    "sync_list_desc": {
+        "message": "登录到你的浏览器后，所有浏览器都可以使用同步列表，但由于存储限制，支持的词组较少"
+    },
+    "sync_list_header": {
+        "message": "是否在你的浏览器之间同步这个列表？"
+    },
+    "sync_list_no": {
+        "message": "不同步"
+    },
+    "sync_list_yes": {
+        "message": "同步"
+    },
+    "synchronizing": {
+        "message": "下载中"
+    },
+    "tab_advanced": {
+        "message": "高级"
+    },
+    "tab_general": {
+        "message": "通用"
+    },
+    "tab_limitations": {
+        "message": "限制"
+    },
+    "tab_settings_backup": {
+        "message": "备份"
+    },
+    "tab_settings_general": {
+        "message": "通用"
+    },
+    "title_newGroupType": {
+        "message": "你想在哪里管理这些词库？"
+    },
+    "word_found_on_page": {
+        "message": "已在页面上找到关键词"
+    },
+    "importLocalRules": {
+        "message": "还原 <b>{0} 个非同步列表</b>，覆盖删除当前为同步的数据"
+    },
+    "importSyncRules": {
+        "message": "还原 <b>{0} 个同步列表</b>，覆盖删除当前为非同步的数据"
+    },
+    "restoreWarning": {
+        "message": "还原同步列表的备份，只会删除和还原同步列表<br />非同步列表的还原，将还原你的配置，并仅删除和还原你的非同步列表"
+    },
+    "migrate_sync_text": {
+        "message": "将此列表更改为同步列表，以使其在你登录的所有浏览器上可用"
+    },
+    "migrate_sync_button": {
+        "message": "同步列表"
+    },
+    "migrate_local_text": {
+        "message": "将此列表更改为本地列表，然后它将仅在此浏览器中可用"
+    },
+    "migrate_local_button": {
+        "message": "列表本地化"
+    },
+    "migrate_sync_toobig_text": {
+        "message": "由于列表太大，无法将列表更改为同步列表，你可以通过限制字数才能将列表同步到你登录的所有浏览器"
+    },
+    "tab_style": {
+        "message": "样式"
+    },
+    "send_to": {
+        "message": "将当前关键词复制到以下列表里"
+    },
+    "field_useRegexTokens_help": {
+        "message": "使用正则表达式标记而不是简单的 * 和 ? 通配符"
+    },
+    "regex_too_many_matches": {
+        "message": "正则表达式太宽泛，会使页面无响应"
+    },
+    "regex_invalid": {
+        "message": "正则表达式无效"
+    },
+    "wordlist_too_long_for_sync_storage": {
+        "message": "列表太长，无法同步到其他浏览器"
+    },
+    "regex_mode": {
+        "message": "正则表达式模式"
+    },
+    "field_caseSensitive_label": {
+        "message": "是否区分大小写"
+    },
+    "sync": {
+        "message": "下载"
+    },
+    "shortmonth_1": {
+        "message": "1月"
+    },
+    "shortmonth_2": {
+        "message": "2月"
+    },
+    "shortmonth_3": {
+        "message": "3月"
+    },
+    "shortmonth_4": {
+        "message": "4月"
+    },
+    "shortmonth_5": {
+        "message": "5月"
+    },
+    "shortmonth_6": {
+        "message": "6月"
+    },
+    "shortmonth_7": {
+        "message": "7月"
+    },
+    "shortmonth_8": {
+        "message": "8月"
+    },
+    "shortmonth_9": {
+        "message": "9月"
+    },
+    "shortmonth_10": {
+        "message": "10月"
+    },
+    "shortmonth_11": {
+        "message": "11月"
+    },
+    "shortmonth_12": {
+        "message": "12月"
+    },
+    "upgrade_to_premium_intro": {
+        "message": "升级到高级版，可以获取到更高级的高亮显示功能"
+    },
+    "upgrade_feature1": {
+        "message": "使用Google表格管理字词"
+    },
+    "upgrade_feature2": {
+        "message": "定义单击高亮显示时的操作"
+    },
+    "upgrade_feature3": {
+        "message": "更多..."
+    },
+    "upgrade_price_title": {
+        "message": "此插件高级版可用于"
+    },
+    "upgrade_tier1": {
+        "message": "3个月: 6欧元"
+    },
+    "upgrade_tier2": {
+        "message": "6个月: 11欧元"
+    },
+    "upgrade_tier3": {
+        "message": "12个月: 18欧元"
+    },
+    "upgrade_tier4": {
+        "message": "24个月: 24欧元"
+    },
+    "upgrade_to_premium": {
+        "message": "升级到高级"
+    },
+    "subscription_enter_key": {
+        "message": "输入许可证密钥"
+    },
+    "subscription_enter_key_help": {
+        "message": "你可以在此处键入或粘贴你通过电子邮件收到的许可证密钥"
+    },
+    "no_subscription_request": {
+        "message": "如果你没有许可证，可以立即申请"
+    },
+    "request_licensekey": {
+        "message": "请求许可证密钥"
+    },
+    "request_license": {
+        "message": "申请许可证"
+    },
+    "request_license_form": {
+        "message": "你可以使用此表格申请许可证密钥"
+    },
+    "email": {
+        "message": "电子邮件"
+    },
+    "confirm_email": {
+        "message": "确认邮件"
+    },
+    "nr_users": {
+        "message": "# 用户"
+    },
+    "duration": {
+        "message": "持续时间"
+    },
+    "agree": {
+        "message": "同意"
+    },
+    "term_conditions": {
+        "message": "条款和条件"
+    },
+    "submit_form": {
+        "message": "提交"
+    },
+    "price_tier1": {
+        "message": "3个月(6欧元每个用户)"
+    },
+    "price_tier2": {
+        "message": "6个月(11欧元每个用户)"
+    },
+    "price_tier3": {
+        "message": "12个月(18欧元每个用户)"
+    },
+    "price_tier4": {
+        "message": "24个月(24欧元每个用户)"
+    },
+    "thanks_request": {
+        "message": "感谢你发送的请求"
+    },
+    "thanks_request_info": {
+        "message": "我们将很快与你联系来交换账单和付款信息。"
+    },
+    "you_are_premium": {
+        "message": "你是高级用户"
+    },
+    "subscription_valid_until": {
+        "message": "你的订阅有效期至"
+    },
+    "enter_license": {
+        "message": "输入新的许可证密钥 "
+    },
+    "need_more_subscriptions": {
+        "message": "如果你需要更多许可证，可以立即申请"
+    },
+    "request_extra_license": {
+        "message": "请求额外的许可证密钥"
+    },
+    "license_new": {
+        "message": "新的许可"
+    },
+    "license_new_until": {
+        "message": "新的许可有效期至"
+    },
+    "license_updated": {
+        "message": "已更新的许可证"
+    },
+    "license_expired": {
+        "message": "当前许可证已过期"
+    },
+    "license_expired_message": {
+        "message": "当前正在使用限制为200字词的版本"
+    },
+    "url_invalid": {
+        "message": "网址无效"
+    },
+    "last_synced_on": {
+        "message": "最后下载时间"
+    },
+    "tab_action": {
+        "message": "操作"
+    },
+    "action_intro": {
+        "message": "设置点击已高亮显示的文字时所要执行的操作"
+    },
+    "label_action": {
+        "message": "操作"
+    },
+    "label_link": {
+        "message": "链接"
+    },
+    "action_example": {
+        "message": "例如，使用标记 'Hi?hL*' 高亮显示单词 'highlight' 将导致："
+    },
+    "action_tip1": {
+        "message": "%t% ：被页面上的文本替换(如：Highlight)"
+    },
+    "action_tip2": {
+        "message": "%s% ：被你的搜索词替换（例如 Hi?hL*）"
+    },
+    "action_tip3": {
+        "message": "%tu% 或 %tl%， %su% 或 %sl% 强制大小写"
+    },
+    "action_tip4": {
+        "message": "如: https://wikipedia.com/wiki/%t% , https://google.com/search?q=%t%"
+    },
+    "action_none": {
+        "message": "无"
+    },
+    "download_frequency": {
+        "message": "下载频率（高级功能）"
+    },
+    "download_frequency_1": {
+        "message": "每10分钟"
+    },
+    "download_frequency_2": {
+        "message": "每30分钟"
+    },
+    "download_frequency_3": {
+        "message": "每1小时"
+    },
+    "download_frequency_4": {
+        "message": "每4小时"
+    },
+    "download_frequency_5": {
+        "message": "每8小时"
+    },
+    "download_frequency_6": {
+        "message": "每天"
+    },
+    "launch_assistant": {
+        "message": "启动助手"
+    },
+    "close_assistant": {
+        "message": "关闭助手"
+    },
+    "sheets_id": {
+        "message": "表格 id"
+    },
+    "sheets_assistant": {
+        "message": "谷歌表格助手"
+    },
+    "assistant_step_1": {
+        "message": "创建或打开现有的 Google 表格文档"
+    },
+    "assistant_step_2": {
+        "message": "在第一张表的第一列中，创建单词列表"
+    },
+    "assistant_step_3": {
+        "message": "在网站上发布工作表"
+    },
+    "assistant_step_4": {
+        "message": "分享 Google 表格"
+    },
+    "assistant_step_5": {
+        "message": "从“复制链接”中选择链接"
+    },
+    "assistant_step_6": {
+        "message": "在此处粘贴链接 "
+    },
+    "premium_feature": {
+        "message": "这是一个高级功能"
+    },
+    "notif_restoreComplete": {
+        "message": "恢复已完成"
+    },
+    "notif_restoring": {
+        "message": "恢复数据中"
+    },    
+    "notif_listSaved": {
+        "message": "列表 \"{0}\" 已保存"
+    },
+    "notif_listDeleted": {
+        "message": "列表 \"{0}\" 已被删"
+    },
+    "notif_listDisabled": {
+        "message": "列表 \"{0}\" 已禁用"
+    },
+    "notif_listEnabled": {
+        "message": "列表 \"{0}\" 已启用"
+    },
+    "notif_allDisabled": {
+        "message": "高亮已禁用"
+    },
+    "notif_allEnabled": {
+        "message": "高亮已启用"
+    },
+    "notif_settingsSaved": {
+        "message": "设置已保存"
+    },
+    "notif_backupDone": {
+        "message": "备份已在下载文件夹中准备好"
+    },
+    "notif_licenseAdfree": {
+        "message": "当前许可证：200字词限定版本"
+    },
+    "notif_licenseAd": {
+        "message": "当前许可证：无限制版本但可能有广告"
+    },
+    "notif_licensePaid": {
+        "message": "当前为 \"{0}\" 版本"
+    },
+    "menu_home_label": {
+        "message": "主页"
+    },
+    "menu_settings_label": {
+        "message": "设置"
+    },
+    "menu_subscription_label": {
+        "message": "订阅"
+    },
+    "menu_help_label": {
+        "message": "帮助"
+    },
+    "currentlicense_free_title": {
+        "message": "当前正在使用限制为200字词的版本"
+    },
+    "currentlicense_free_description": {
+        "message": "<li>当前高亮显示限制为200个字词。将只使用列表中的前200个字词</li><li>不存在使用时间限制</li><li>可以使用所有高亮显示样式</li><li>无合作者链接投放</li>"
+    },
+    "currentlicense_temp_title": {
+        "message": "当前为试用版本"
+    },
+    "currentlicense_temp_description": {
+        "message": "<li>当前高亮显示不受限</li><li>可以使用所有高亮显示样式</li><li>无合作者链接投放</li>"
+    },
+    "currentlicense_ad_title": {
+        "message": "当前许可证：无限制但可能有广告"       
+    },
+    "currentlicense_ad_description": {
+        "message": "<li>当前高亮显示不受限</li><li>可以使用所有高亮显示样式</li><li>不存在使用时间限制</li><li>访问的页面中，可能会看到带有下划线的广告链接</li>"
+    },
+    "currentlicense_500_title": {
+        "message": "当前正在使用限制为500字词的版本"
+    },
+    "currentlicense_500_description": {
+        "message": " <li>当前版本高亮将只使用列表中的前500个字词</li><li>存在60天使用时间限制</li><li>可以使用所有高亮显示样式</li><li>无合作者链接投放</li>"
+    },
+    "currentlicense_unlimited_title": {
+        "message": "当前正在使用的为无限制版本"
+    },
+    "currentlicense_unlimited_description": {
+        "message": "<li>当前高亮显示不受限</li><li>可以使用所有高亮显示样式</li><li>无合作者链接投放</li>"
+    },
+    "changelicense_title": {
+        "message": "更改版本"
+    },
+    "changelicense_ad_title": {
+        "message": "带有合作者链接的不限制版本"
+    },
+    "changelicense_ad_description": {
+        "message": "<li>高亮显示不受限</li><li>可以使用所有高亮显示样式</li><li>不存在使用时间限制</li><li>访问的页面中，可能会看到带有下划线的广告链接</li>"
+    },
+    "changelicense_ad_button": {
+        "message": "启用带有合作伙伴链接高亮显示的版本"
+    },
+    "changelicense_free_title": {
+        "message": "200字词的免费限定高亮显示"
+    },
+    "changelicense_free_description": {
+        "message": "<li>当前版本，高亮显示将只使用列表中的前200个字词</li><li>不存在使用时间限制</li><li>只能使用有限的高亮显示样式</li><li>无合作者链接投放</li>"
+    },
+    "changelicense_free_button": {
+        "message": "启用限定200字词高亮显示的版本"
+    },
+    "changelicense_paid_title": {
+        "message": "500字词的免费限定高亮显示"
+    },
+    "changelicense_paid_description": {
+        "message": "<li>当前版本，高亮显示将只使用列表中的前500个字词</li><li>存在60天使用时间限制</li><li>可以使用所有高亮显示样式</li><li>无合作者链接投放</li>"
+    },
+    "changelicense_paid_button": {
+        "message": "启用限定500字词高亮显示的版本"
+    },
+    "enterlicense_title": {
+        "message": "请输入许可证密钥"
+    },
+    "enterlicense_description": {
+        "message": "如果已有许可证密钥，可在此处输入。"
+    },
+    "enterlicense_label": {
+        "message": "许可证密钥"
+    },
+    "enterlicense_button": {
+        "message": "验证"
+    },
+    "filterwords": {
+        "message": "筛选"
+    },
+    "maxwords_reached": {
+        "message": "已经超出免费词库范围{0}倍。<a id=\"linkSubscription\" style=\"text-decoration: underline\">更改订阅</a>以免错失任何高亮显示"
+    },
+    "license_expires": {
+        "message": "许可证将于{0}天后过期。<a id=\"linkSubscription\" style=\"text-decoration: underline\">更改订阅</a>以免错失任何高亮显示"
+    },
+    "license_temp": {
+        "message": "试用"
+    },
+    "license_free": {
+        "message": "免费"
+    },
+    "license_ad": {
+        "message": "合作者链接高亮显示"
+    },
+    "license_500": {
+        "message": "500"
+    },
+    "license_unlimited": {
+        "message": "永久"
+    },
+    "license_message_temp": {
+        "message": "当前为无限制的试用版本。试用期将于{0}天后过期。 <a id=\"linkSubscription\" style=\"text-decoration: underline\">切换订阅模式</a>"
+    },
+    "license_message_temp_expire": {
+        "message": "当前为无限制的试用版本。试用期已过。 <a id=\"linkSubscription\" style=\"text-decoration: underline\">切换订阅模式</a>"
+    },    
+    "license_message_expire": {
+        "message": "当前许可证已到期。 <a id=\"linkSubscription\" style=\"text-decoration: underline\">切换订阅模式</a>"
+    },     
+    "changelicense_ad_moreinfo": {
+        "message": "有关合作者链接的更多信息"
+    },
+    "field_containerSelector": {
+        "message": "仅当网页HTML标签容器与此查询选择器匹配时才高亮显示"
+    },
+    "first_list": {
+        "message": "默认列表"
+    },
+    "field_clearSyncLists": {
+        "message": "重置数据和设置"
+    },
+    "info_clearSyncLists": {
+        "message": "重置数据和设置前，请先创建备份"
+    },
+    "resetDataAndSettings": {
+        "message": "重置数据和设置"
+    },
+    "popup_confirmReset": {
+        "message": "<div>确定要重置所有数据和设置？</div><div>继续之前，请确保已备份</div>"
+    },
+    "yesReset": {
+        "message": "重置数据"
+    },
+    "noReset": {
+        "message": "取消"
+    },
+   "field_sendErrors": {
+        "message": "反馈问题给开发者"
+    },
+    "sendErrorsHelp": {
+        "message": "<p>如果遇到问题，请添加下方微信二维码向开发人员反馈</p>"
+    },
+    "field_sendErrorsDescription": {
+        "message": "问题描述:"
+    },
+    "field_sendErrorsEmail": {
+        "message": "电子邮件地址:"
+    },
+    "sendErrorsButton": {
+        "message": "发送"
+    },
+    "notif_bugReportSent": {
+        "message": "问题报告已提交"
+    },
+    "menu_sendErrors_label": {
+        "message": "报告问题"
+    },
+    "field_autoBackupSettings": {
+        "message": "自动备份"
+    },
+    "info_autoBackupSettings": {
+        "message": "在下载文件夹中创建备份"
+    },
+    "autoBackup_Never": {
+        "message": "永不"
+    },
+    "autoBackup_Daily": {
+        "message": "每日"
+    },
+    "autoBackup_Weekly": {
+        "message": "每周"
+    },
+    "autoBackup_Monthly": {
+        "message": "每月"
+    },
+    "action_newtab": {
+        "message": "在新的标签中打开"
+    },    
+    "action_sametab": {
+        "message": "在当前窗口中打开"
+    },
+    "action_newwindow":{
+    	"message":"在新的窗口中打开"
+    },
+    "field_boxColor": {
+        "message": "输入栏的边框颜色"
+    },
+    "magicHighlighting": {
+        "message": "加速已优化的高亮显示"
+    },
+    "added_non_term": {
+        "message": "注意这个词可能不会高亮显示"
+    },
+    "added_non_term_description": {
+        "message": "你已添加了脚本中的字符，这些字符通常不以空格或符号分隔。\n\n检查列表的设置以指定单词/术语匹配"
+    },
+    "license_confirm_temp_remove": {
+        "message": "确定要切换版本吗？该操作将无法撤回"
+    }
+}

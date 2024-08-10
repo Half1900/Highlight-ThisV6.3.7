@@ -1,0 +1,56 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 3,
+  "name": "__MSG_application_title__",
+  "short_name": "Highlight This",
+  "description": "__MSG_application_description__",
+  "default_locale": "zh",
+  "permissions": ["tabs","contextMenus","notifications","alarms","storage","offscreen"],
+  "icons": {
+    "16": "Plugin16.png",
+    "48": "Plugin48.png",
+    "96": "Plugin96.png",
+    "128": "Plugin128.png",
+    "276": "Plugin276.png"
+  },
+  "background": {
+    "service_worker": "serviceWorker.js",
+    "type": "module"
+  },
+  "commands": {
+    "ScrollHighlight": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Space",
+        "mac": "Command+Shift+Space"
+      },
+      "description": "ScrollHighlight"
+    }
+  },
+  "version": "6.3.7.2405161646",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "libs/jquery/jquery-3.3.1.js",
+        "tab/wordsManager.js",
+        "common.js",
+        "highlightEngine.js",
+        "highlightFields.js",
+        "tabWordHighlighter.js"
+      ],
+      "css" : ["highlightThis.css"],
+      "all_frames": true,
+      "run_at": "document_start",
+      "match_about_blank": true
+    }
+  ],
+  "action": {
+    "default_icon": {              
+      "16": "Plugin16.png"
+    },
+    "default_title": "Click Me",  
+    "default_popup": "popup.html" 
+  }
+
+}

@@ -1,0 +1,357 @@
+.highlightThisMarker{
+  width: 13px;
+  height: 2px;
+  border: 1px solid black;
+  position: absolute;
+  right: 1px;
+  z-index: 10000;
+}
+em.Highlight-dev {
+  position: relative; /* Needed to position the tooltip */
+  cursor: pointer; /* Just to show that it's hoverable */
+}
+
+em.Highlight-dev::after {
+  content: attr(data-tooltip); /* Fetches and displays the tooltip text */
+  position: absolute;
+  bottom: 100%; /* Position the tooltip above the element */
+  left: 50%; /* Start the tooltip in the center of the element */
+  transform: translateX(-50%); /* Center the tooltip */
+  white-space: nowrap; /* Keeps the tooltip text on a single line */
+  visibility: hidden; /* Hide the tooltip by default */
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s; /* Smooth transition for tooltip */
+  background-color: black; /* Tooltip background */
+  color: white; /* Tooltip text color */
+  text-align: center;
+  border-radius: 4px; /* Optional: adds rounded corners to the tooltip */
+  padding: 5px 10px; /* Padding inside the tooltip */
+  font-size: 0.75em; /* Smaller font size for the tooltip */
+  z-index: 1000; /* Ensure the tooltip is above other content */
+}
+
+em.Highlight-dev:hover::after {
+  visibility: visible; /* Show the tooltip on hover */
+  opacity: 1;
+}
+
+.secKillTarget {
+    text-shadow: 2px 2px 4px rgb(170, 123, 201) !important;
+    box-shadow: 4px 4px 4px rgb(64, 180, 229) !important;
+    border-bottom: 2px #d502ef dashed !important;   
+    cursor: pointer  !important;
+    /*color: white !important;
+    border-radius: 1px;*/
+   /* border-top: #0447ff 0.5px solid !important;
+    border-bottom: #0447ff 0.5px solid !important;
+    background: -webkit-linear-gradient(left, rgb(170, 123, 201), rgb(64, 180, 229)) !important;*/
+}
+
+#secKillForm {
+    position: fixed;
+    top: 5px;
+    left: 41.5%; /* 水平居中，通过转换实现 */  
+    /*transform: translateX(-50%);*/ /* 向左移动自身宽度的一半，实现水平居中 */
+    width: 207px;  
+    height: auto; 
+    padding: 0px 5px  12px 5px;
+    box-shadow: 1px 2px 2px #888888;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: 微软雅黑 Microsoft Himalaya Consolas;
+    overflow: hidden;
+    background: -webkit-linear-gradient(left, rgb(170, 123, 201), rgb(64, 180, 229));
+    z-index: 2147483649;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+#secKillForm .secKill-input-text {
+    display:block;
+    width: 132px;
+    height: 18px;
+    padding:  0px;
+    background: rgba(255,255,255,1);
+    border: none;
+    outline: none;
+    color: black;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    text-indent: 4px;
+    transition: all .3s ease-in-out;
+    position: relative;
+    font-size: 10px;
+    top: -22px;
+    left: 46px;
+}
+#location{
+    display: block;
+    outline: none;
+    text-indent: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    margin-top: -24px;
+    margin-left: 48px;
+    padding-right: 2px !important;
+    padding-left: 1px !important;
+    padding-top: 3px !important;
+    padding-bottom: 2px !important;
+    width: 67%;
+    height: auto;
+}
+#secKillForm .secKill-filed-2 {
+    color: #fff;
+ /*   float: left;*/
+    padding: 3px 10px;
+    /*border: 1px solid white;*/
+    border-radius: 5px;
+    margin-left: 3px;
+    margin-top: 5px;
+    position: relative;
+    width: auto;
+    height: 24px;
+}
+#rb1,#rb2{
+    width: 16px;
+    height: 16px;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+.selectorClass label{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    top: -4px;
+}
+.secKill-filed-2,.secKill-filed-5,.secKill-filed-6,.secKill-filed-7{
+   /* border: 1px solid white;*/
+    border-radius: 5px;  
+}
+.secKill-filed-3{
+    position: relative;
+    margin-top: 3px;
+    display: inline-block;
+    /*border: 1px solid white;*/
+    width: auto;
+    padding-left: 10px;
+    margin-left: 3px;
+    border-radius: 5px;
+    height: auto;
+}
+.secKill-filed-6{
+    display: flex;
+    width: auto;
+    margin-top: 3px;
+    margin-left: 3px;
+    padding-left: 10px;
+    height: 25px;
+    line-height: 25px;
+}
+.secKill-filed-8{
+    /*border: 1px solid white;*/
+    width: 135px;
+    border-radius: 4px;
+    position: relative;
+    top: 3px;
+    left: 3px;
+    height: 24px;
+}
+#count2{
+    top: -23px !important;
+    left: 58px !important;
+    width: 65px !important;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.secKill-filed-7{
+    display: none;
+    width: 90px;
+    margin-top: 5px;
+    margin-left: 3px;
+    padding-left: 10px;
+    height: 25px;
+    line-height: 25px;
+}
+#secKillForm .secKill-name {
+    color: white;
+    font-weight: bolder;
+    font-size: 10px;
+    line-height: 26px;
+}
+.secKill-filed-8 .secKill-name{
+    padding-left: 10px;
+}
+
+#count1{
+    width: 40px !important;
+}
+
+#secKillForm .secKill-button {
+    display: inline-block;
+    font-size: large;
+    color: white;
+    text-align: center;
+    word-break: break-all;
+    width: auto;
+    padding: 0px 3px !important;
+    height: auto;
+    line-height: normal;
+    cursor: pointer;
+    font-weight: bolder;
+    box-shadow: 1px 1px 1px #888888;
+    border-radius: 4px;
+}
+#secKillForm .secKill-add{
+    background: #d75ba2;
+    margin-top: 9px;
+    height: 37px;
+    line-height: 31px;
+    font-size: 15px;
+
+}
+#secKillForm .secKill-close{
+    background: #F44336;
+    /*margin-right: 22px;*/   
+}
+#secKillForm .secKill-rechoose{
+    background: #FF9800;
+    /*margin-left: 9px;
+    margin-right: 22px;*/
+}
+
+#secKillForm #startFunc{
+    background: #b53ab7;      
+}
+.selectorClass{
+    width: auto;
+    cursor: pointer;
+    margin-top: -24px;
+    margin-left: 42px;
+}
+#secKillForm .secKill-input-number{
+    display:block;
+    height: 17px;
+    padding:  0px;
+    background: rgba(255,255,255,1);
+    border: none;
+    outline: none;
+    color: black;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;    
+    text-indent: 4px;
+    transition: all .3s ease-in-out;
+    position: relative;
+    top: -23px;
+    left: 46px;
+    font-size: 12px;
+}
+
+.chkC{
+   /* border: 1px solid white;*/
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 2px;
+    border-radius: 4px;
+    margin-top: 1px;
+    margin-left: 2px;
+    height: auto;
+    background: #ff7800;
+    color: white;
+    cursor: pointer;
+}
+#count{
+    display: inline-block;
+    margin-top: 1px;
+    width: 64px;
+    border: 1px solid rgba(0,0,0,0.3);
+    outline: none;
+    text-indent: 2px;
+    border-radius: 5px;
+    height: auto;
+}
+.chkC:hover{
+    background: #b53ab7;
+}
+.chkC label{
+    display: contents;
+    width: 24px;
+    margin-top: -1px;
+    margin-left: -4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#chk1{
+    width: 16px;
+    height: 16px;
+}
+
+.buttonC{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    margin-top: 11px;
+    margin-left: 13px;
+    height: 26px;
+    width: 88%;
+}
+.buttonC .seckill-button{
+    flex: 1 !important;
+    text-align: center !important;
+}
+#time1,#time2{    
+    line-height: 18px;
+    padding: 0px;
+    outline: none;
+    text-indent: 2px;
+    width: 50px !important;
+    border-radius: 5px;
+    border-image: initial;
+    color: black;
+    border: 1px solid rgba(0,0,0,0.3);
+    display: inline-block;
+    height: 18px;
+    transition: all 0.3s ease-in-out 0s;
+    background: white;    
+}
+#time1{
+    margin-left: -2px;
+}
+.secKill-filed-time{
+    position: relative;
+    display: inline-block;
+    height: 27px;
+    line-height: 25px;
+    /*border: 1px solid white;*/
+    border-radius: 5px;
+    padding-left:9px;
+    width: auto;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+#time2{
+    /*position: relative;
+    top: -58px !important;
+    left: 91px !important;*/
+}
+.line{
+    width: 10px;
+    /*position: relative;*/
+    display: inline-block;
+    font-size: 15px;
+/*    top: -44px;
+    left: 77px;*/
+    border-bottom: 2px solid white;
+}
+.chkk{
+    display: none;
+    left: 131px;
+    top: -81px;
+}
+#secKillForm input{
+    background: white !important;
+    -webkit-appearance: auto !important;
+}
